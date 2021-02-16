@@ -1,0 +1,9 @@
+git status	     查看当前状态
+git add XXX  缓冲区
+git commit -m "XXX"     提交 “注释”
+git log	       查看版本变化（历史记录）
+git log --pretty=oneline   简单查看版本
+git reflog  获取版本号
+git reset --hard HEAD^    版本回退  HEAD^^
+git reset --hard XXX       回退到XXX版本号
+cat readme.txt     查看内容
